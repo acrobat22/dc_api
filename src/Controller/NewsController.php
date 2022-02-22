@@ -67,7 +67,7 @@ class NewsController extends AbstractController
 
     /**
      * Affiche l'article choisi
-     * @Route("/api/new/{id}", name="oneNew", methods={"GET"})
+     * @Route("/new/{id}", name="oneNew", methods={"GET"})
      * @param $id
      * @return Response
      */
